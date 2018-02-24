@@ -15,6 +15,9 @@
 		86E1C8A820403A12007704D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E1C8A720403A12007704D8 /* main.m */; };
 		86E1C8B220403A13007704D8 /* TableViewAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E1C8B120403A13007704D8 /* TableViewAnimationDemoTests.m */; };
 		86E1C8BD20403A13007704D8 /* TableViewAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E1C8BC20403A13007704D8 /* TableViewAnimationDemoUITests.m */; };
+		86E1C8CC20410A4A007704D8 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E1C8CB20410A4A007704D8 /* mainViewController.m */; };
+		86E1C8CF20410F12007704D8 /* messageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E1C8CE20410F12007704D8 /* messageViewController.m */; };
+		86E1C8D220413E57007704D8 /* CustomCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E1C8D120413E57007704D8 /* CustomCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		86E1C8B820403A13007704D8 /* TableViewAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E1C8BC20403A13007704D8 /* TableViewAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewAnimationDemoUITests.m; sourceTree = "<group>"; };
 		86E1C8BE20403A13007704D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86E1C8CA20410A4A007704D8 /* mainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		86E1C8CB20410A4A007704D8 /* mainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		86E1C8CD20410F12007704D8 /* messageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = messageViewController.h; sourceTree = "<group>"; };
+		86E1C8CE20410F12007704D8 /* messageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = messageViewController.m; sourceTree = "<group>"; };
+		86E1C8D020413E56007704D8 /* CustomCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		86E1C8D120413E57007704D8 /* CustomCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +112,14 @@
 			children = (
 				86E1C89820403A12007704D8 /* AppDelegate.h */,
 				86E1C89920403A12007704D8 /* AppDelegate.m */,
+				86E1C8CA20410A4A007704D8 /* mainViewController.h */,
+				86E1C8CB20410A4A007704D8 /* mainViewController.m */,
 				86E1C89B20403A12007704D8 /* ViewController.h */,
 				86E1C89C20403A12007704D8 /* ViewController.m */,
+				86E1C8CD20410F12007704D8 /* messageViewController.h */,
+				86E1C8CE20410F12007704D8 /* messageViewController.m */,
+				86E1C8D020413E56007704D8 /* CustomCollectionViewFlowLayout.h */,
+				86E1C8D120413E57007704D8 /* CustomCollectionViewFlowLayout.m */,
 				86E1C89E20403A12007704D8 /* Main.storyboard */,
 				86E1C8A120403A12007704D8 /* Assets.xcassets */,
 				86E1C8A320403A12007704D8 /* LaunchScreen.storyboard */,
@@ -268,6 +283,9 @@
 				86E1C89D20403A12007704D8 /* ViewController.m in Sources */,
 				86E1C8A820403A12007704D8 /* main.m in Sources */,
 				86E1C89A20403A12007704D8 /* AppDelegate.m in Sources */,
+				86E1C8CF20410F12007704D8 /* messageViewController.m in Sources */,
+				86E1C8D220413E57007704D8 /* CustomCollectionViewFlowLayout.m in Sources */,
+				86E1C8CC20410A4A007704D8 /* mainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
